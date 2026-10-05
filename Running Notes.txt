@@ -1,0 +1,79 @@
+npm install -g typescript
+
+Automation Testing:
+-----------------Regression Testing
+Re-Usability
+CI/CD
+Security
+Readability:{Block} {100TC}->{1TC} {2TC}
+
+Selenium with Java
+Playwright with TS/JS 
+
+V1:Login:20TC->AS[Programming Language:OOPS]  V2:V1+V2   V20:V1...V20 19times 
+
+Playwright:Automation Tool
+Write automation script:Compile and Excute 
+Automation Script=PLC+PYC 
+Programming Language Concepts:
+
+TypeScript or Java Script:
+----------------------
+let a=10;
+let b='abcd';
+b=22;
+b=true;
+b=22.333;
+
+a+b:10abcd
+
+let a=10;
+
+To develop different types of app.
+To prepare automation scripts.
+
+FP:HTML CSS JS  BP:Java  TS 
+
+TS[SourceCode]->Compilation->JS[Object/ByteCode]->Run/Excutes
+
+Node.js npm 
+TypeScript Compiler
+VS-Code
+
+DataTypes Variables KeyWords 
+Scope of Variables:var let const 
+
+Container:Store/Hold 
+Memory Locaton:a=10; Camera:100
+
+Index:0 to n-1  Name:b=20 Address
+
+Integer:Plain:43434 -9876 Point:44.76 -87.87
+number bigint:5465879857456879n; 
+String:'' "" ``
+Boolean:true/false 0 1 
+
+KeyWord variablename:datatype=Value;
+var num1:number=123;
+var num2=234;
+
+Global:var let const
+Re-Declaration:var a=10; var a=20;
+Re-Initialization a=10; a=20;a=30
+const pie=3.14; 
+const pie=3.15; pie=3.16;
+
+Assignment:
+----------
+WATP:Enter Student deatails and print same in terminal cover all datatypes.
+WATP:Enter Cunstomer deatails and print same in terminal cover all datatypes.
+WATP:Enter Employe deatails and print same in terminal cover all datatypes.
+
+Normal Variable
+Array Variable
+
+for(let i=1;i<=10;i++)
+
+
+Function:Inside function
+Block:Inside if block
