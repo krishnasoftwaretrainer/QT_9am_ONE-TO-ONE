@@ -77,3 +77,177 @@ for(let i=1;i<=10;i++)
 
 Function:Inside function
 Block:Inside if block
+
+
+Scope of Variables:
+---------------
+User-Defined:Rules:
+var num1=22;
+let num2=33;
+const num3=44;
+
+function and block(if)
+var:function scope 
+let,const:block scope
+
+TypeScript Tokens:
+---------------
+KeyWords:Pre-define:Builtin:Library
+
+var number let
+
+Indentifiers:var a:number=10; Krishna 
+class sample
+
+Literals:let name:string='Krishna';
+
+Constants:const 
+
+'' "" ``
+
+Comments:
+--------
+Non-Excutable Statements 
+Single Line:// 
+Multi Line:/*  */
+
+Errors in TS:
+----------
+Red:Error Yellow:Warning Green int Int String 
+1.Syntax or CompileTime:tsc 1k   
+2.RunTime/Exceptions  a=5,b=0 a/b :node 
+3.Logical Errors:a=5,b=3; +:8 2
+UN PWD:Error Defect/Bug Assertions
+
+2 to 50:2 50 1 51
+ab 
+abc 
+abcd 
+
+51 52 .....
+
+Operators:
+---------
+1.Arthematic:+ - * / % 
+2.Relational/Comparisin:< <= > >= == !=
+boolean:true or false   10.5>20.6:false 
+for(let i=1;i<=10;i++)
+3.Logical:AND OR NOT 
+boolean:
+	AND OR 
+T T  T  T 
+T F  F  T 
+F T  F  T 
+F F  F  F 
+
+uname='fegg' && pwd='egg':T 
+4.Assignment:
++= -= *= /= %=
+
+b=10
+a=b+5;
+a=15
+
+b=10;
+b+=5;
+b=b+5;
+b=15; Normal
+
+5.Unary:+ - Positive and Negative 
+	+10		-20
+Increment:++
++1 i=5;i++;i=6
+1.Pre-Increment:++a a=10 ++a; a=11 Print:11 
+2.Post-Increment:b++ b=10;Print:10 a++:a=11
+
+Decrement:--
+-1 i=5;i--;i=4
+
+3.Pre-Decrement:--c 
+4.Post-Decrement:d--
+
+6.Ternary:Another form of if condition
+? : Ex:55
+
+Control Flow Statements:
+-----------
+Sequentional Flow:executes the statements according to given order.
+Conditional Flow:
+
+Conditional Statements:
+----------------
+Defination
+Syntax
+Flowchart
+Explanation
+Example Programs
+
+TBS:True Block Statements:Pass 
+FBS:False Block Statements:Fail 
+Relational Operators:< > <= >= == != 
+
+1.if condition
+a.simple-if():
+----------
+True:TBS 
+False:Null 
+Input value:
+if(Condition) T/F 
+{
+Body; TBS
+} Exit 
+
+b.if-else:
+--------
+True:TBS 
+False:FBS 
+
+Input value:
+if(Condition) T/F 
+{
+Body; TBS
+} Exit 
+else
+{
+FBS;
+}
+
+c.else-if or ladder if:
+---------------
+if(Condition)
+{
+TBS;
+}
+else if(Condition)
+{
+TBS;
+}
+else if(Condition)
+{
+TBS;
+}
+else
+{
+FBS;
+}
+
+d.nested if
+
+2.switch condition
+
+Looping 
+Jumping 
+Arrays
+String 
+Functions 
+
+OOPS:
+Class Object 
+Methods 
+Constractures
+Inheritence 
+Polymorphism
+Data Abstraction
+Interface
+Encapsulation
+Exception Handling

@@ -1,0 +1,5 @@
+"use strict";
+let num1 = 12345.45665;
+console.log(num1);
+let num2 = 1236732842842348974398449884795893478747899783493494545665n;
+console.log(num2);
