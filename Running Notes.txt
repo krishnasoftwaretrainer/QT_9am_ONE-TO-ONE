@@ -251,3 +251,101 @@ Data Abstraction
 Interface
 Encapsulation
 Exception Handling
+
+Syntax:
+if(Condition)
+{
+TBS;
+}
+else if(Condition)
+{
+TBS;
+}
+else if(condition)
+{
+TBS;
+}
+else
+{
+FBS;
+}
+
+Nested if:
+----------
+Syntax:
+if(Condition) Outer T T F 
+{
+if(Condition)Inner  T F 
+{
+Body;
+}
+}
+
+switch(Comparison):
+-----------------
+switch(Comparison Value) L F AC  
+{
+case 'L':
+{
+Light;
+break;
+}
+case 'F':
+{
+Fan;
+break;
+}
+default :
+{
+FBS;
+}
+
+Looping[Iterative] Statements:
+-------------------
+1.Counted:for fixed values loop 
+Infinite:while
+1.for()
+Syntax:
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body;
+}
+
+2.while()
+while(true)
+{
+Body;
+}
+-----
+Initialization;
+while(Condition)
+{
+Body;
+Increment/Decrement;
+}
+Entry Control:
+
+Exit Control:
+
+3.do-while()
+---------
+InitialValue;
+do 
+{
+Body;
+Increment/Decrement;
+}while(Condition);
+
+4.nested for():
+----------
+for() Outer i=1;i>=5 i++
+{
+for() Inner j=1;j>=5 j++
+{
+Body;
+}
+}
+
+1	2	3	4	5
+1	2	3	4	5
+1	2	3	4	5
