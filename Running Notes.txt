@@ -664,3 +664,78 @@ test('test', async ({ page }) => {
   await page.locator('[data-test="login-button"]').click();
   await page.locator('[data-test="error"]').click();
 });
+
+Web Elements:
+-------------
+Text Box and Area:fill() type():
+Buttons and Links:Click()
+Radio and CheckBox:Check  
+DropDowns:Select 
+
+Web Locators:
+Built-in:
+CSS Selector XPath://tagname[@attribute='Value']
+
+await expect(page.getByText('Welcome, John')).toBeVisible();
+
+await expect(page.getByText('Epic sadface: Password is required')).toBeVisible();
+
+await expect(page.getByText('text')).toBeVisible();
+
+button, link, textbox, checkbox, radio, combobox, listbox, heading, img,row, cell, table, dialog, alert, alertdialog.
+
+CSS:page.locator(#idvalue)  .clasname [attribute='value']
+[data-test="error-button"] tagname
+
+Browser Navigations
+Frames
+Alerts 
+Web Tables
+Actions 
+
+CI/CD:
+
+Code:Cloud:GitHub:Build:URL 
+Script:Cloud:GitHub:
+
+CI Tools:Jenkins and GitHub Actions:.yml  
+
+GitHub:Cloud Repository[Memory]:Repo 
+
+Git:Version Control System.
+V1+V2+V3....V10 
+.exe s/w Bash:Commands 
+
+Local f1: f1:  f1:
+git remote add origin https://github.com/krishnasoftwaretrainer/QT_9am_Git.git
+
+git remote add origin https://github.com/krishnasoftwaretrainer/PlaywrightScript9amgitscript.git
+
+
+Frame Works:
+----------
+Data Driven
+POM 
+Hybrid:Data-Driven+POM 
+
+BDD Cucumber
+
+Data-Driven:
+-----------
+Positive and Negative
+
+Regression Problems:
+
+https://www.saucedemo.com/inventory.html
+https://www.saucedemo.com/
+
+Epic sadface: Username and password do not match any user in this service
+Epic sadface: Password is required
+Epic sadface: Username is required
+
+Hybrid FrameWork:URL+Locators+TestData+Actions 
+
+Data-Driven:TestData:JSON EXCEL CSV 
+POM:
+
+public add(a:number,b?:number):void
