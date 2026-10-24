@@ -1,0 +1,63 @@
+Setup Cucumber with Playwright Typescript
+step1: create empty folder in local machine
+step2: install software
+nodejs
+vsc
+playwright
+Step3: open folder in vsccode
+Step4: install playwright
+step5: adding cucumber plugin
+step6: delete non related files
+playwright.config.json
+tests
+step7:Install cucumber
+npm i @cucumber/cucumber -D
+npm i ts-node -D
+step8:Create Folder
+src/test
+features
+steps
+step9:Create cucumber.json[Root Folder]
+{
+    "default": {
+        "requireModule": [
+            "tsx/cjs"
+        ],
+        "require": [
+            "src/test/StepDefinitions/**/*.ts"
+        ],
+        "paths": [
+            "src/test/features/*.feature"
+        ],
+        "publishQuiet": true
+    }
+}
+
+===============
+
+step10:add test in package.json inside scripts:{}
+"test":"cucumber-js test"
+
+step11:create feature file in Feature folder
+step12:ctrl+, open cucumber settings and verify paths
+
+cucumber.features": [
+    "src/test/features/*.feature",
+or
+"paths": [
+  "src/test/features/*.feature"
+]
+step13:run feature file in terminal
+npm run test
+
+Run Steps File: npx cucumber-js
+
+==========
+Feature: SwagLabs Login
+
+Scenario: User logs in successfully on SwagLabs
+    Given The user is on the login page
+    When The user enters a username "standard_user"
+    And The user enters a password "secret_sauce"
+    And The user clicks the login button
+    Then The user should be logged into SwagLabs
