@@ -1,0 +1,14 @@
+{
+    "default": {
+        "requireModule": [
+            "tsx/cjs"
+        ],
+        "require": [
+            "src/test/StepDefinitions/**/*.ts"
+        ],
+        "paths": [
+            "src/test/features/*.feature"
+        ],
+        "publishQuiet": true
+    }
+}
